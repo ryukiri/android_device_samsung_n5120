@@ -468,9 +468,6 @@ on post-fs-data
 
     # Set indication (checked by vold) that we have finished this action
     setprop vold.post_fs_data_done 1
-    
-    # CM: We use our own ril-daemon service definition, see htc-ril-daemon
-    stop ril-daemon
 
 on boot
     mount debugfs /sys/kernel/debug /sys/kernel/debug
