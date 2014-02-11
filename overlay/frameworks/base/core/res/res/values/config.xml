@@ -27,7 +27,7 @@
     <bool name="config_sms_capable">true</bool>
 
     <!-- The default iface on which to monitor data use -->
-    <string name="config_datause_iface">rmnet0</string>
+    <string name="config_datause_iface">pdp0</string>
 
     <!-- An Array of "[Connection name],[ConnectivityManager.TYPE_xxxx],
          [associated radio-type],[priority],[restoral-timer(ms)],[dependencyMet]  -->
